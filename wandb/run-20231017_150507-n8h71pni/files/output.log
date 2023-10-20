@@ -1,0 +1,12 @@
+  0%|                                                                                                                                            | 0/200 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "fine-tune-xclip.py", line 62, in <module>
+    trainer.train()
+  File "/home/pavana/anaconda3/envs/XCLIP/lib/python3.7/site-packages/transformers/trainer.py", line 1649, in train
+    ignore_keys_for_eval=ignore_keys_for_eval,
+  File "/home/pavana/anaconda3/envs/XCLIP/lib/python3.7/site-packages/transformers/trainer.py", line 1938, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/pavana/anaconda3/envs/XCLIP/lib/python3.7/site-packages/transformers/trainer.py", line 2752, in training_step
+    inputs = self._prepare_inputs(inputs)
+  File "/home/pavana/anaconda3/envs/XCLIP/lib/python3.7/site-packages/transformers/trainer.py", line 2700, in _prepare_inputs
+    "The batch received was empty, your model won't be able to train on it. Double-check that your "
+TypeError: can only join an iterable

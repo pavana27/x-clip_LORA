@@ -1,0 +1,26 @@
+  0%|                                                                                                                                                                       | 0/200 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/pavana/hface-video-llama/fine-tune-xclip.py", line 61, in <module>
+    trainer.train()
+  File "/home/pavana/anaconda3/envs/videollama/lib/python3.9/site-packages/transformers/trainer.py", line 1506, in train
+    return inner_training_loop(
+  File "/home/pavana/anaconda3/envs/videollama/lib/python3.9/site-packages/transformers/trainer.py", line 1779, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "/home/pavana/anaconda3/envs/videollama/lib/python3.9/site-packages/accelerate/data_loader.py", line 384, in __iter__
+    current_batch = next(dataloader_iter)
+  File "/home/pavana/anaconda3/envs/videollama/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 681, in __next__
+    data = self._next_data()
+  File "/home/pavana/anaconda3/envs/videollama/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 721, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/pavana/anaconda3/envs/videollama/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/pavana/anaconda3/envs/videollama/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/pavana/anaconda3/envs/videollama/lib/python3.9/site-packages/datasets/arrow_dataset.py", line 2803, in __getitem__
+    return self._getitem(key)
+  File "/home/pavana/anaconda3/envs/videollama/lib/python3.9/site-packages/datasets/arrow_dataset.py", line 2787, in _getitem
+    pa_subtable = query_table(self._data, key, indices=self._indices if self._indices is not None else None)
+  File "/home/pavana/anaconda3/envs/videollama/lib/python3.9/site-packages/datasets/formatting/formatting.py", line 583, in query_table
+    _check_valid_index_key(key, size)
+  File "/home/pavana/anaconda3/envs/videollama/lib/python3.9/site-packages/datasets/formatting/formatting.py", line 526, in _check_valid_index_key
+    raise IndexError(f"Invalid key: {key} is out of bounds for size {size}")
+IndexError: Invalid key: 28 is out of bounds for size 0

@@ -1,0 +1,12 @@
+  0%|                                                                                                                                                                       | 0/200 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/pavana/hface-video-llama/fine-tune-xclip.py", line 62, in <module>
+    trainer.train()
+  File "/home/pavana/anaconda3/envs/videollama/lib/python3.9/site-packages/transformers/trainer.py", line 1644, in train
+    return inner_training_loop(
+  File "/home/pavana/anaconda3/envs/videollama/lib/python3.9/site-packages/transformers/trainer.py", line 1911, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/pavana/anaconda3/envs/videollama/lib/python3.9/site-packages/transformers/trainer.py", line 2650, in training_step
+    inputs = self._prepare_inputs(inputs)
+  File "/home/pavana/anaconda3/envs/videollama/lib/python3.9/site-packages/transformers/trainer.py", line 2599, in _prepare_inputs
+    f"training dataset contains keys expected by the model: {','.join(self._signature_columns)}."
+TypeError: can only join an iterable

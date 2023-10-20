@@ -1,0 +1,190 @@
+2023-10-12 21:39:59,473 INFO    StreamThr :30173 [internal.py:wandb_internal():86] W&B internal server running at pid: 30173, started at: 2023-10-12 21:39:59.473209
+2023-10-12 21:39:59,476 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: status
+2023-10-12 21:39:59,477 INFO    WriterThread:30173 [datastore.py:open_for_write():85] open: /home/pavana/hface-video-llama/wandb/run-20231012_213959-rar728ke/run-rar728ke.wandb
+2023-10-12 21:39:59,477 DEBUG   SenderThread:30173 [sender.py:send():380] send: header
+2023-10-12 21:39:59,477 DEBUG   SenderThread:30173 [sender.py:send():380] send: run
+2023-10-12 21:39:59,727 INFO    SenderThread:30173 [dir_watcher.py:__init__():211] watching files in: /home/pavana/hface-video-llama/wandb/run-20231012_213959-rar728ke/files
+2023-10-12 21:39:59,728 INFO    SenderThread:30173 [sender.py:_start_run_threads():1122] run started: rar728ke with start time 1697161199.473158
+2023-10-12 21:39:59,732 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: check_version
+2023-10-12 21:39:59,733 DEBUG   SenderThread:30173 [sender.py:send_request():407] send_request: check_version
+2023-10-12 21:39:59,785 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: run_start
+2023-10-12 21:39:59,792 DEBUG   HandlerThread:30173 [system_info.py:__init__():32] System info init
+2023-10-12 21:39:59,792 DEBUG   HandlerThread:30173 [system_info.py:__init__():47] System info init done
+2023-10-12 21:39:59,792 INFO    HandlerThread:30173 [system_monitor.py:start():181] Starting system monitor
+2023-10-12 21:39:59,792 INFO    SystemMonitor:30173 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-12 21:39:59,793 INFO    HandlerThread:30173 [system_monitor.py:probe():201] Collecting system info
+2023-10-12 21:39:59,793 INFO    SystemMonitor:30173 [interfaces.py:start():190] Started cpu monitoring
+2023-10-12 21:39:59,794 INFO    SystemMonitor:30173 [interfaces.py:start():190] Started disk monitoring
+2023-10-12 21:39:59,794 INFO    SystemMonitor:30173 [interfaces.py:start():190] Started gpu monitoring
+2023-10-12 21:39:59,794 INFO    SystemMonitor:30173 [interfaces.py:start():190] Started memory monitoring
+2023-10-12 21:39:59,795 INFO    SystemMonitor:30173 [interfaces.py:start():190] Started network monitoring
+2023-10-12 21:39:59,813 ERROR   gpu       :30173 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-10-12 21:39:59,813 ERROR   gpu       :30173 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-10-12 21:39:59,814 DEBUG   HandlerThread:30173 [system_info.py:probe():196] Probing system
+2023-10-12 21:39:59,820 DEBUG   HandlerThread:30173 [gitlib.py:_init_repo():53] git repository is invalid
+2023-10-12 21:39:59,820 DEBUG   HandlerThread:30173 [system_info.py:probe():244] Probing system done
+2023-10-12 21:39:59,820 DEBUG   HandlerThread:30173 [system_monitor.py:probe():210] {'os': 'Linux-6.2.0-34-generic-x86_64-with-glibc2.35', 'python': '3.9.18', 'heartbeatAt': '2023-10-13T01:39:59.814212', 'startedAt': '2023-10-13T01:39:59.469338', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/pavana/hface-video-llama/fine-tune-xclip.py', 'codePathLocal': 'fine-tune-xclip.py', 'codePath': 'fine-tune-xclip.py', 'host': 'lambda4090', 'username': 'pavana', 'executable': '/home/pavana/anaconda3/envs/videollama/bin/python', 'cpu_count': 16, 'cpu_count_logical': 32, 'cpu_freq': {'current': 2.6271875, 'min': 1800.0, 'max': 4000.0}, 'cpu_freq_per_core': [{'current': 4.521, 'min': 1800.0, 'max': 4000.0}, {'current': 1.8, 'min': 1800.0, 'max': 4000.0}, {'current': 1.8, 'min': 1800.0, 'max': 4000.0}, {'current': 4.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1.8, 'min': 1800.0, 'max': 4000.0}, {'current': 1.8, 'min': 1800.0, 'max': 4000.0}, {'current': 1.8, 'min': 1800.0, 'max': 4000.0}, {'current': 1.8, 'min': 1800.0, 'max': 4000.0}, {'current': 4.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1.8, 'min': 1800.0, 'max': 4000.0}, {'current': 1.8, 'min': 1800.0, 'max': 4000.0}, {'current': 4.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1.8, 'min': 1800.0, 'max': 4000.0}, {'current': 4.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1.8, 'min': 1800.0, 'max': 4000.0}, {'current': 1.8, 'min': 1800.0, 'max': 4000.0}, {'current': 3.233, 'min': 1800.0, 'max': 4000.0}, {'current': 2.897, 'min': 1800.0, 'max': 4000.0}, {'current': 1.8, 'min': 1800.0, 'max': 4000.0}, {'current': 3.254, 'min': 1800.0, 'max': 4000.0}, {'current': 2.86, 'min': 1800.0, 'max': 4000.0}, {'current': 2.261, 'min': 1800.0, 'max': 4000.0}, {'current': 1.8, 'min': 1800.0, 'max': 4000.0}, {'current': 1.817, 'min': 1800.0, 'max': 4000.0}, {'current': 1.8, 'min': 1800.0, 'max': 4000.0}, {'current': 4.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1.8, 'min': 1800.0, 'max': 4000.0}, {'current': 4.537, 'min': 1800.0, 'max': 4000.0}, {'current': 4.526, 'min': 1800.0, 'max': 4000.0}, {'current': 4.536, 'min': 1800.0, 'max': 4000.0}, {'current': 4.532, 'min': 1800.0, 'max': 4000.0}, {'current': 3.633, 'min': 1800.0, 'max': 4000.0}], 'disk': {'/': {'total': 1758.8579597473145, 'used': 1172.2450981140137}}, 'gpu': 'NVIDIA GeForce RTX 4090', 'gpu_count': 3, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4090', 'memory_total': 25757220864}, {'name': 'NVIDIA GeForce RTX 4090', 'memory_total': 25757220864}, {'name': 'NVIDIA GeForce GT 1030', 'memory_total': 2147483648}], 'memory': {'total': 125.6235237121582}}
+2023-10-12 21:39:59,821 INFO    HandlerThread:30173 [system_monitor.py:probe():211] Finished collecting system info
+2023-10-12 21:39:59,821 INFO    HandlerThread:30173 [system_monitor.py:probe():214] Publishing system info
+2023-10-12 21:39:59,821 DEBUG   HandlerThread:30173 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-10-12 21:39:59,821 DEBUG   HandlerThread:30173 [system_info.py:_save_pip():68] Saving pip packages done
+2023-10-12 21:39:59,821 DEBUG   HandlerThread:30173 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-10-12 21:40:00,729 INFO    Thread-12 :30173 [dir_watcher.py:_on_file_created():271] file/dir created: /home/pavana/hface-video-llama/wandb/run-20231012_213959-rar728ke/files/requirements.txt
+2023-10-12 21:40:00,729 INFO    Thread-12 :30173 [dir_watcher.py:_on_file_created():271] file/dir created: /home/pavana/hface-video-llama/wandb/run-20231012_213959-rar728ke/files/conda-environment.yaml
+2023-10-12 21:40:01,816 ERROR   gpu       :30173 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-10-12 21:40:01,816 ERROR   gpu       :30173 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-10-12 21:40:02,261 DEBUG   HandlerThread:30173 [system_info.py:_save_conda():87] Saving conda packages done
+2023-10-12 21:40:02,262 INFO    HandlerThread:30173 [system_monitor.py:probe():216] Finished publishing system info
+2023-10-12 21:40:02,265 DEBUG   SenderThread:30173 [sender.py:send():380] send: files
+2023-10-12 21:40:02,265 INFO    SenderThread:30173 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-10-12 21:40:02,268 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-12 21:40:02,268 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-12 21:40:02,268 DEBUG   SenderThread:30173 [sender.py:send_request():407] send_request: stop_status
+2023-10-12 21:40:02,391 DEBUG   SenderThread:30173 [sender.py:send():380] send: telemetry
+2023-10-12 21:40:02,391 DEBUG   SenderThread:30173 [sender.py:send():380] send: config
+2023-10-12 21:40:02,392 DEBUG   SenderThread:30173 [sender.py:send():380] send: metric
+2023-10-12 21:40:02,392 DEBUG   SenderThread:30173 [sender.py:send():380] send: telemetry
+2023-10-12 21:40:02,392 DEBUG   SenderThread:30173 [sender.py:send():380] send: metric
+2023-10-12 21:40:02,392 WARNING SenderThread:30173 [sender.py:send_metric():1329] Seen metric with glob (shouldn't happen)
+2023-10-12 21:40:02,392 DEBUG   SenderThread:30173 [sender.py:send():380] send: telemetry
+2023-10-12 21:40:02,394 DEBUG   SenderThread:30173 [sender.py:send():380] send: exit
+2023-10-12 21:40:02,394 INFO    SenderThread:30173 [sender.py:send_exit():585] handling exit code: 1
+2023-10-12 21:40:02,394 INFO    SenderThread:30173 [sender.py:send_exit():587] handling runtime: 2
+2023-10-12 21:40:02,395 INFO    SenderThread:30173 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-12 21:40:02,395 INFO    SenderThread:30173 [sender.py:send_exit():593] send defer
+2023-10-12 21:40:02,395 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: defer
+2023-10-12 21:40:02,395 INFO    HandlerThread:30173 [handler.py:handle_request_defer():170] handle defer: 0
+2023-10-12 21:40:02,396 DEBUG   SenderThread:30173 [sender.py:send_request():407] send_request: defer
+2023-10-12 21:40:02,396 INFO    SenderThread:30173 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-10-12 21:40:02,396 INFO    SenderThread:30173 [sender.py:transition_state():613] send defer: 1
+2023-10-12 21:40:02,396 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: defer
+2023-10-12 21:40:02,396 INFO    HandlerThread:30173 [handler.py:handle_request_defer():170] handle defer: 1
+2023-10-12 21:40:02,396 DEBUG   SenderThread:30173 [sender.py:send_request():407] send_request: defer
+2023-10-12 21:40:02,396 INFO    SenderThread:30173 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-10-12 21:40:02,396 INFO    SenderThread:30173 [sender.py:transition_state():613] send defer: 2
+2023-10-12 21:40:02,396 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: defer
+2023-10-12 21:40:02,396 INFO    HandlerThread:30173 [handler.py:handle_request_defer():170] handle defer: 2
+2023-10-12 21:40:02,396 INFO    HandlerThread:30173 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-12 21:40:02,396 DEBUG   SystemMonitor:30173 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-12 21:40:02,397 INFO    HandlerThread:30173 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-12 21:40:02,397 DEBUG   SystemMonitor:30173 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-12 21:40:02,397 INFO    HandlerThread:30173 [interfaces.py:finish():202] Joined disk monitor
+2023-10-12 21:40:02,397 DEBUG   SystemMonitor:30173 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-12 21:40:02,525 ERROR   gpu       :30173 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-10-12 21:40:02,526 INFO    HandlerThread:30173 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-12 21:40:02,526 INFO    HandlerThread:30173 [interfaces.py:finish():202] Joined memory monitor
+2023-10-12 21:40:02,526 INFO    HandlerThread:30173 [interfaces.py:finish():202] Joined network monitor
+2023-10-12 21:40:02,527 DEBUG   SenderThread:30173 [sender.py:send_request():407] send_request: defer
+2023-10-12 21:40:02,527 INFO    SenderThread:30173 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-10-12 21:40:02,527 INFO    SenderThread:30173 [sender.py:transition_state():613] send defer: 3
+2023-10-12 21:40:02,527 DEBUG   SenderThread:30173 [sender.py:send():380] send: stats
+2023-10-12 21:40:02,527 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: defer
+2023-10-12 21:40:02,528 INFO    HandlerThread:30173 [handler.py:handle_request_defer():170] handle defer: 3
+2023-10-12 21:40:02,528 DEBUG   SenderThread:30173 [sender.py:send_request():407] send_request: defer
+2023-10-12 21:40:02,528 INFO    SenderThread:30173 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-10-12 21:40:02,528 INFO    SenderThread:30173 [sender.py:transition_state():613] send defer: 4
+2023-10-12 21:40:02,528 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: defer
+2023-10-12 21:40:02,528 INFO    HandlerThread:30173 [handler.py:handle_request_defer():170] handle defer: 4
+2023-10-12 21:40:02,529 DEBUG   SenderThread:30173 [sender.py:send_request():407] send_request: defer
+2023-10-12 21:40:02,529 INFO    SenderThread:30173 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-10-12 21:40:02,529 INFO    SenderThread:30173 [sender.py:transition_state():613] send defer: 5
+2023-10-12 21:40:02,529 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: defer
+2023-10-12 21:40:02,529 INFO    HandlerThread:30173 [handler.py:handle_request_defer():170] handle defer: 5
+2023-10-12 21:40:02,529 DEBUG   SenderThread:30173 [sender.py:send():380] send: summary
+2023-10-12 21:40:02,529 INFO    SenderThread:30173 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-12 21:40:02,530 DEBUG   SenderThread:30173 [sender.py:send_request():407] send_request: defer
+2023-10-12 21:40:02,530 INFO    SenderThread:30173 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-10-12 21:40:02,530 INFO    SenderThread:30173 [sender.py:transition_state():613] send defer: 6
+2023-10-12 21:40:02,530 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: defer
+2023-10-12 21:40:02,530 INFO    HandlerThread:30173 [handler.py:handle_request_defer():170] handle defer: 6
+2023-10-12 21:40:02,530 DEBUG   SenderThread:30173 [sender.py:send_request():407] send_request: defer
+2023-10-12 21:40:02,530 INFO    SenderThread:30173 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-10-12 21:40:02,534 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: status_report
+2023-10-12 21:40:02,585 INFO    wandb-upload_0:30173 [upload_job.py:push():131] Uploaded file /tmp/tmpd09tmtlvwandb/2ajvlc8g-wandb-metadata.json
+2023-10-12 21:40:02,664 INFO    SenderThread:30173 [sender.py:transition_state():613] send defer: 7
+2023-10-12 21:40:02,664 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: defer
+2023-10-12 21:40:02,664 INFO    HandlerThread:30173 [handler.py:handle_request_defer():170] handle defer: 7
+2023-10-12 21:40:02,665 DEBUG   SenderThread:30173 [sender.py:send_request():407] send_request: defer
+2023-10-12 21:40:02,665 INFO    SenderThread:30173 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-10-12 21:40:02,729 INFO    Thread-12 :30173 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/pavana/hface-video-llama/wandb/run-20231012_213959-rar728ke/files/config.yaml
+2023-10-12 21:40:02,729 INFO    Thread-12 :30173 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/pavana/hface-video-llama/wandb/run-20231012_213959-rar728ke/files/conda-environment.yaml
+2023-10-12 21:40:02,729 INFO    Thread-12 :30173 [dir_watcher.py:_on_file_created():271] file/dir created: /home/pavana/hface-video-llama/wandb/run-20231012_213959-rar728ke/files/wandb-summary.json
+2023-10-12 21:40:02,729 INFO    Thread-12 :30173 [dir_watcher.py:_on_file_created():271] file/dir created: /home/pavana/hface-video-llama/wandb/run-20231012_213959-rar728ke/files/wandb-metadata.json
+2023-10-12 21:40:02,729 INFO    Thread-12 :30173 [dir_watcher.py:_on_file_created():271] file/dir created: /home/pavana/hface-video-llama/wandb/run-20231012_213959-rar728ke/files/output.log
+2023-10-12 21:40:03,315 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: poll_exit
+2023-10-12 21:40:04,398 INFO    SenderThread:30173 [sender.py:transition_state():613] send defer: 8
+2023-10-12 21:40:04,399 DEBUG   SenderThread:30173 [sender.py:send_request():407] send_request: poll_exit
+2023-10-12 21:40:04,399 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: defer
+2023-10-12 21:40:04,399 INFO    HandlerThread:30173 [handler.py:handle_request_defer():170] handle defer: 8
+2023-10-12 21:40:04,400 DEBUG   SenderThread:30173 [sender.py:send_request():407] send_request: defer
+2023-10-12 21:40:04,400 INFO    SenderThread:30173 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-10-12 21:40:04,400 INFO    SenderThread:30173 [job_builder.py:build():281] Attempting to build job artifact
+2023-10-12 21:40:04,401 INFO    SenderThread:30173 [job_builder.py:_get_source_type():404] no source found
+2023-10-12 21:40:04,401 INFO    SenderThread:30173 [sender.py:transition_state():613] send defer: 9
+2023-10-12 21:40:04,402 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: defer
+2023-10-12 21:40:04,402 INFO    HandlerThread:30173 [handler.py:handle_request_defer():170] handle defer: 9
+2023-10-12 21:40:04,402 DEBUG   SenderThread:30173 [sender.py:send_request():407] send_request: defer
+2023-10-12 21:40:04,402 INFO    SenderThread:30173 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-10-12 21:40:04,402 INFO    SenderThread:30173 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-10-12 21:40:04,730 INFO    Thread-12 :30173 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/pavana/hface-video-llama/wandb/run-20231012_213959-rar728ke/files/output.log
+2023-10-12 21:40:04,731 INFO    SenderThread:30173 [dir_watcher.py:finish():388] scan: /home/pavana/hface-video-llama/wandb/run-20231012_213959-rar728ke/files
+2023-10-12 21:40:04,732 INFO    SenderThread:30173 [dir_watcher.py:finish():402] scan save: /home/pavana/hface-video-llama/wandb/run-20231012_213959-rar728ke/files/output.log output.log
+2023-10-12 21:40:04,732 INFO    SenderThread:30173 [dir_watcher.py:finish():402] scan save: /home/pavana/hface-video-llama/wandb/run-20231012_213959-rar728ke/files/wandb-metadata.json wandb-metadata.json
+2023-10-12 21:40:04,732 INFO    SenderThread:30173 [dir_watcher.py:finish():402] scan save: /home/pavana/hface-video-llama/wandb/run-20231012_213959-rar728ke/files/requirements.txt requirements.txt
+2023-10-12 21:40:04,732 INFO    SenderThread:30173 [dir_watcher.py:finish():402] scan save: /home/pavana/hface-video-llama/wandb/run-20231012_213959-rar728ke/files/wandb-summary.json wandb-summary.json
+2023-10-12 21:40:04,736 INFO    SenderThread:30173 [dir_watcher.py:finish():402] scan save: /home/pavana/hface-video-llama/wandb/run-20231012_213959-rar728ke/files/conda-environment.yaml conda-environment.yaml
+2023-10-12 21:40:04,739 INFO    SenderThread:30173 [dir_watcher.py:finish():402] scan save: /home/pavana/hface-video-llama/wandb/run-20231012_213959-rar728ke/files/config.yaml config.yaml
+2023-10-12 21:40:04,739 INFO    SenderThread:30173 [sender.py:transition_state():613] send defer: 10
+2023-10-12 21:40:04,741 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: defer
+2023-10-12 21:40:04,743 INFO    HandlerThread:30173 [handler.py:handle_request_defer():170] handle defer: 10
+2023-10-12 21:40:04,744 DEBUG   SenderThread:30173 [sender.py:send_request():407] send_request: defer
+2023-10-12 21:40:04,744 INFO    SenderThread:30173 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-10-12 21:40:04,744 INFO    SenderThread:30173 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-12 21:40:04,940 INFO    wandb-upload_1:30173 [upload_job.py:push():131] Uploaded file /home/pavana/hface-video-llama/wandb/run-20231012_213959-rar728ke/files/output.log
+2023-10-12 21:40:05,048 INFO    wandb-upload_3:30173 [upload_job.py:push():131] Uploaded file /home/pavana/hface-video-llama/wandb/run-20231012_213959-rar728ke/files/conda-environment.yaml
+2023-10-12 21:40:05,056 INFO    wandb-upload_4:30173 [upload_job.py:push():131] Uploaded file /home/pavana/hface-video-llama/wandb/run-20231012_213959-rar728ke/files/config.yaml
+2023-10-12 21:40:05,073 INFO    wandb-upload_2:30173 [upload_job.py:push():131] Uploaded file /home/pavana/hface-video-llama/wandb/run-20231012_213959-rar728ke/files/wandb-summary.json
+2023-10-12 21:40:05,141 INFO    wandb-upload_0:30173 [upload_job.py:push():131] Uploaded file /home/pavana/hface-video-llama/wandb/run-20231012_213959-rar728ke/files/requirements.txt
+2023-10-12 21:40:05,341 INFO    Thread-11 :30173 [sender.py:transition_state():613] send defer: 11
+2023-10-12 21:40:05,342 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: defer
+2023-10-12 21:40:05,342 INFO    HandlerThread:30173 [handler.py:handle_request_defer():170] handle defer: 11
+2023-10-12 21:40:05,343 DEBUG   SenderThread:30173 [sender.py:send_request():407] send_request: defer
+2023-10-12 21:40:05,343 INFO    SenderThread:30173 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-10-12 21:40:05,343 INFO    SenderThread:30173 [file_pusher.py:join():181] waiting for file pusher
+2023-10-12 21:40:05,343 INFO    SenderThread:30173 [sender.py:transition_state():613] send defer: 12
+2023-10-12 21:40:05,343 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: defer
+2023-10-12 21:40:05,343 INFO    HandlerThread:30173 [handler.py:handle_request_defer():170] handle defer: 12
+2023-10-12 21:40:05,343 DEBUG   SenderThread:30173 [sender.py:send_request():407] send_request: defer
+2023-10-12 21:40:05,344 INFO    SenderThread:30173 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-10-12 21:40:05,344 INFO    SenderThread:30173 [file_stream.py:finish():595] file stream finish called
+2023-10-12 21:40:05,428 INFO    SenderThread:30173 [file_stream.py:finish():599] file stream finish is done
+2023-10-12 21:40:05,429 INFO    SenderThread:30173 [sender.py:transition_state():613] send defer: 13
+2023-10-12 21:40:05,429 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: defer
+2023-10-12 21:40:05,429 INFO    HandlerThread:30173 [handler.py:handle_request_defer():170] handle defer: 13
+2023-10-12 21:40:05,429 DEBUG   SenderThread:30173 [sender.py:send_request():407] send_request: defer
+2023-10-12 21:40:05,429 INFO    SenderThread:30173 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-10-12 21:40:05,429 INFO    SenderThread:30173 [sender.py:transition_state():613] send defer: 14
+2023-10-12 21:40:05,429 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: defer
+2023-10-12 21:40:05,429 INFO    HandlerThread:30173 [handler.py:handle_request_defer():170] handle defer: 14
+2023-10-12 21:40:05,430 DEBUG   SenderThread:30173 [sender.py:send():380] send: final
+2023-10-12 21:40:05,430 DEBUG   SenderThread:30173 [sender.py:send():380] send: footer
+2023-10-12 21:40:05,430 DEBUG   SenderThread:30173 [sender.py:send_request():407] send_request: defer
+2023-10-12 21:40:05,430 INFO    SenderThread:30173 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-10-12 21:40:05,430 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: poll_exit
+2023-10-12 21:40:05,431 DEBUG   SenderThread:30173 [sender.py:send_request():407] send_request: poll_exit
+2023-10-12 21:40:05,431 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: server_info
+2023-10-12 21:40:05,431 DEBUG   SenderThread:30173 [sender.py:send_request():407] send_request: server_info
+2023-10-12 21:40:05,433 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: get_summary
+2023-10-12 21:40:05,433 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: sampled_history
+2023-10-12 21:40:05,434 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-12 21:40:05,434 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: job_info
+2023-10-12 21:40:05,483 DEBUG   SenderThread:30173 [sender.py:send_request():407] send_request: job_info
+2023-10-12 21:40:05,484 INFO    MainThread:30173 [wandb_run.py:_footer_history_summary_info():3554] rendering history
+2023-10-12 21:40:05,484 INFO    MainThread:30173 [wandb_run.py:_footer_history_summary_info():3586] rendering summary
+2023-10-12 21:40:05,484 INFO    MainThread:30173 [wandb_run.py:_footer_sync_info():3513] logging synced files
+2023-10-12 21:40:05,485 DEBUG   HandlerThread:30173 [handler.py:handle_request():144] handle_request: shutdown
+2023-10-12 21:40:05,485 INFO    HandlerThread:30173 [handler.py:finish():844] shutting down handler
+2023-10-12 21:40:06,435 INFO    WriterThread:30173 [datastore.py:close():294] close: /home/pavana/hface-video-llama/wandb/run-20231012_213959-rar728ke/run-rar728ke.wandb
+2023-10-12 21:40:06,484 INFO    SenderThread:30173 [sender.py:finish():1534] shutting down sender
+2023-10-12 21:40:06,484 INFO    SenderThread:30173 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-12 21:40:06,484 INFO    SenderThread:30173 [file_pusher.py:join():181] waiting for file pusher

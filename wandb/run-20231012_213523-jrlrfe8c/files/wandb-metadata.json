@@ -1,0 +1,210 @@
+{
+    "os": "Linux-6.2.0-34-generic-x86_64-with-glibc2.35",
+    "python": "3.9.18",
+    "heartbeatAt": "2023-10-13T01:35:24.212601",
+    "startedAt": "2023-10-13T01:35:23.879814",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/pavana/hface-video-llama/fine-tune-xclip.py",
+    "codePathLocal": "fine-tune-xclip.py",
+    "codePath": "fine-tune-xclip.py",
+    "host": "lambda4090",
+    "username": "pavana",
+    "executable": "/home/pavana/anaconda3/envs/videollama/bin/python",
+    "cpu_count": 16,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 2.5843437499999995,
+        "min": 1800.0,
+        "max": 4000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4.491,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 4.341,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 4.498,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1.8,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1.8,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1.8,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1.8,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1.8,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1.8,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3.075,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2.603,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1.8,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 4.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1.8,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1.8,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1.8,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 4.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1.8,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1.8,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 4.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3.638,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3.635,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 4.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 4.539,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1.8,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2.986,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1.8,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3.724,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1.8,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1.8,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1.8,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1.8,
+            "min": 1800.0,
+            "max": 4000.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1758.8579597473145,
+            "used": 1172.2449836730957
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "gpu_count": 3,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4090",
+            "memory_total": 25757220864
+        },
+        {
+            "name": "NVIDIA GeForce RTX 4090",
+            "memory_total": 25757220864
+        },
+        {
+            "name": "NVIDIA GeForce GT 1030",
+            "memory_total": 2147483648
+        }
+    ],
+    "memory": {
+        "total": 125.6235237121582
+    }
+}
